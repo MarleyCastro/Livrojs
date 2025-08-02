@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate in Dinner</title>
+</head>
+<body>
+    <script>
+        let valueinDinner = Number(prompt("Qual o valor do jantar ?"));
+        let Taxwaiter = valueinDinner * 0.10;
+        let result = Taxwaiter + valueinDinner;
+        // toFixed significa que haverá 2 casas decimais de acordo com o valor declarado
+        alert(`Taxa do Garson ${Taxwaiter}\n Total de tudo ${result.toFixed(2)}`); 
+    </script>
+</body>
+</html>
