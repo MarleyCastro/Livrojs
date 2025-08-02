@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typeof and Number.isInteger</title>
+</head>
+<body>
+    <script>
+        const fruit = "Banana";
+        const price = 3.50;
+        const toTake = true;
+        let newValue;
+
+        // typeof identifica os valores das váriaveis
+        console.log(typeof fruit);  // String
+        console.log(typeof price);  // double
+        console.log(typeof toTake);  // boolean
+        console.log(typeof newValue); // udenfined
+        
+        // O valor a ser testado para verificar se é um inteiro.
+        console.log(Number.isInteger(12)); // true 
+        console.log(Number.isInteger(15.6)) // false
+    </script>
+</body>
+</html>
