@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Brothers</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo2"></p>
+    <script>
+        let numberBrothers = Number(prompt('Digite um número: '));
+        let previous = numberBrothers - 1;
+        let later = numberBrothers + 1;
+        alert(`Numero digitado = ${numberBrothers}\n Número anterior ${previous} número posterior ${later}`);
+    </script>
+</body>
+</html>
