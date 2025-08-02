@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value Per Customer</title>
+</head>
+<body>
+    <script>
+        let ValuePerCustomer = Number(prompt('Qual o valor da conta? '));
+        let NumberCustomer = Number(prompt('Número de clientes...'));
+        let CustomerDivision = ValuePerCustomer / NumberCustomer;
+
+        alert(`
+            Valor da conta  = R$: ${ValuePerCustomer}\n 
+            Número de clintes = ${NumberCustomer}\n 
+            Valor por cliente =  ${CustomerDivision}\n
+            `);
+    </script>
+</body>
+</html>
