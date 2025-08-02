@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+</head>
+<body>
+    <Script>
+        let Product = Number(prompt('Digite o valor do Produto...'));
+        let payCash = Product - (Product * 0.10);
+        let Xinterest = Product / 3
+        alert(`
+            Preço  = R$: ${Product}\n 
+            A vista  = R$: ${payCash}\n 
+            Ou 3x de  =  R$: ${Xinterest}\n
+            `)
+    </Script>
+</body>
+</html>
